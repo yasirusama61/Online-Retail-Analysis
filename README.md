@@ -95,10 +95,29 @@ There is a noticeable **increase in revenue** during the last quarter, followed 
 
 ---
 
-### **Key Insights from EDA**:
-1. The **United Kingdom** dominates sales, contributing the largest revenue share.
-2. The product **"REGENCY CAKESTAND 3 TIER"** generated the highest revenue overall.
-3. Revenue trends show significant growth in the last quarter of the year, with a sharp decline in December.
+### **3.4 Distribution of Recency (Customer Segmentation)**
+The distribution of **recency** – days since a customer's last purchase – shows important insights into customer activity.
+
+![Distribution of Recency](plots/recency_distribution.png)
+
+**Key Insights**:
+1. **Majority of Customers are Inactive**:
+   - A significant portion of customers have not made a purchase in a long time, indicating potential churn.
+
+2. **Skewed Distribution**:
+   - Most customers have high recency values (inactive), while very few have low recency values (recent activity).
+
+3. **Retention Opportunity**:
+   - Customers with high recency values can be targeted with **re-engagement campaigns** to revive interest.
+   - Recent customers should be incentivized to ensure continued loyalty.
+
+---
+
+### **Summary of EDA**:
+- The **United Kingdom** is the top-performing country by revenue.
+- **"REGENCY CAKESTAND 3 TIER"** is the best-selling product.
+- There’s a sharp revenue increase in the last quarter of the year.
+- Recency analysis reveals opportunities to improve **customer retention** by targeting inactive customers.
 
 ---
 
