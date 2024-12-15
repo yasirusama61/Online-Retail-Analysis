@@ -105,7 +105,7 @@ There is a noticeable **increase in revenue** during the last quarter, followed 
 ## 💻 Installation and Usage
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/online-retail-analysis.git
+   git clone https://github.com/yasirusama61/online-retail-analysis.git
 
 2. **Install required R packages**:
    ```bash
