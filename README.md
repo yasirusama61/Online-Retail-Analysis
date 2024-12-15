@@ -66,6 +66,40 @@ This project demonstrates an end-to-end data science workflow using the **Online
 
 ---
 
+## **3. Exploratory Data Analysis (EDA)** 📊
+
+Exploratory Data Analysis (EDA) was conducted to uncover insights into sales performance, top products, and revenue trends over time.
+
+---
+
+### **3.1 Top 10 Countries by Revenue**
+The chart below highlights the top-performing countries by total revenue, with the **United Kingdom** contributing the most significantly.
+
+![Top 10 Countries by Revenue](plots/top_countries_revenue.png)
+
+---
+
+### **3.2 Top 10 Products by Total Revenue**
+The following plot shows the **top 10 products** that generated the highest revenue.  
+The product **"REGENCY CAKESTAND 3 TIER"** dominates as the top-selling item.
+
+![Top 10 Products by Total Revenue](plots/top_products_revenue.png)
+
+---
+
+### **3.3 Monthly Revenue Trends**
+This time-series plot displays the **monthly revenue trends** throughout the year.  
+There is a noticeable **increase in revenue** during the last quarter, followed by a steep drop, likely indicating incomplete December data.
+
+![Monthly Revenue Trends](plots/monthly_revenue_trends.png)
+
+---
+
+### **Key Insights from EDA**:
+1. The **United Kingdom** dominates sales, contributing the largest revenue share.
+2. The product **"REGENCY CAKESTAND 3 TIER"** generated the highest revenue overall.
+3. Revenue trends show significant growth in the last quarter of the year, with a sharp decline in December.
+
 ## 📊 Key Features
 ### Monthly Revenue Trend  
 Visualize revenue trends over time:  
@@ -82,3 +116,10 @@ Identify high-performing products:
    ```bash
    git clone https://github.com/yourusername/online-retail-analysis.git
 
+2. **Install required R packages**:
+   ```bash
+   install.packages(c("tidyverse", "janitor", "lubridate", "ggplot2", "readxl", "forecast", "prophet"))
+
+3. **Run the scripts**:
+   Navigate to the notebooks/ folder to execute individual analysis steps.
+   For the Shiny dashboard, open and run shiny_dashboard/app.R.
