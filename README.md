@@ -100,15 +100,6 @@ There is a noticeable **increase in revenue** during the last quarter, followed 
 2. The product **"REGENCY CAKESTAND 3 TIER"** generated the highest revenue overall.
 3. Revenue trends show significant growth in the last quarter of the year, with a sharp decline in December.
 
-## 📊 Key Features
-### Monthly Revenue Trend  
-Visualize revenue trends over time:  
-<img src="https://via.placeholder.com/800x400.png?text=Monthly+Revenue+Trend" alt="Monthly Revenue Trend" width="600"/>
-
-### Top Products by Revenue  
-Identify high-performing products:  
-<img src="https://via.placeholder.com/800x400.png?text=Top+Products+Bar+Chart" alt="Top Products by Revenue" width="600"/>
-
 ---
 
 ## 💻 Installation and Usage
