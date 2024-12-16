@@ -113,11 +113,56 @@ The distribution of **recency** – days since a customer's last purchase – sh
 
 ---
 
+### **3.5 Revenue Distribution by Country**
+The map below visualizes **revenue distribution across countries**.  
+Countries with higher revenue are highlighted in darker shades. The **United Kingdom** and **Australia** dominate in terms of revenue contribution.
+
+![Revenue Distribution by Country](plots/revenue_map.png)
+
+**Key Insights**:
+- Revenue is concentrated in a few major markets, primarily in the **UK**, followed by other European countries and Australia.
+- Emerging opportunities may exist in countries with lower revenue contributions.
+
+---
+
+### **3.6 Sales Trends by Hour of Day**
+The plot below shows the **total revenue generated across different hours of the day**.  
+
+![Sales Trends by Hour of Day](plots/sales_by_hour.png)
+
+**Key Insights**:
+1. Sales activity **peaks between 10 AM and 3 PM**, with the highest revenue observed around midday.
+2. Early mornings and evenings have lower sales volumes, suggesting focused business hours.
+
+---
+
+### **3.7 Top 10 Products by Quantity Sold**
+The following chart highlights the **top 10 products** in terms of quantity sold.  
+**"JUMBO BAG RED RETROSPOT"** is the most sold product, followed by **"WORLD WAR 2 GLIDERS ASSTD DESIGNS"**.
+
+![Top 10 Products by Quantity Sold](plots/top_products_quantity.png)
+
+**Key Insights**:
+- Top-selling products by quantity differ from top revenue-generating products.
+- Lower-priced products may dominate in quantity, while premium products contribute more to total revenue.
+
+---
+
 ### **Summary of EDA**:
-- The **United Kingdom** is the top-performing country by revenue.
-- **"REGENCY CAKESTAND 3 TIER"** is the best-selling product.
-- There’s a sharp revenue increase in the last quarter of the year.
-- Recency analysis reveals opportunities to improve **customer retention** by targeting inactive customers.
+1. **Revenue Distribution**:
+   - The **United Kingdom** is the leading country in revenue generation.
+   - Seasonal peaks are observed during the last quarter.
+
+2. **Product Analysis**:
+   - **"REGENCY CAKESTAND 3 TIER"** generates the most revenue.
+   - **"JUMBO BAG RED RETROSPOT"** is the most frequently purchased product.
+
+3. **Customer Behavior**:
+   - Sales activity peaks during **midday hours**.
+   - Recency analysis suggests opportunities for **re-engagement campaigns** to target inactive customers.
+
+4. **Geographical Insights**:
+   - Revenue is concentrated in key markets like the **UK** and **Australia**, with untapped potential in other regions.
 
 ---
 
