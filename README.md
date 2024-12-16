@@ -215,6 +215,44 @@ This segmentation helps businesses identify customer behaviors, enabling targete
 
 ---
 
+## 6. Predictive Modeling 📈
+
+### **Sales Forecasting**
+
+We applied **ARIMA** (AutoRegressive Integrated Moving Average) to predict hourly sales trends for better inventory and revenue planning. The baseline model was configured using **ARIMA(3,1,3)(0,0,1)[24]**, indicating seasonal adjustment with 24-hour cycles.
+
+**Steps:**
+- Prepared hourly revenue data and tested for stationarity.
+- Optimized ARIMA model parameters using AIC for best fit.
+- Forecasted future hourly sales with **confidence intervals** (80% and 95%) to account for uncertainty.
+- Validated the model using residual analysis and Ljung-Box test.
+
+**Results:**
+- **Forecast Plot**: Displayed actual vs. predicted sales with confidence intervals.
+- **Residual Analysis**: The residuals appear random with no significant autocorrelation, suggesting a good model fit.
+
+#### Key Metrics:
+- **Mean Error (ME)**: `11.77`
+- **Root Mean Squared Error (RMSE)**: `3039.78`
+- **Mean Absolute Error (MAE)**: `1843.33`
+- **Mean Absolute Percentage Error (MAPE)**: `336.65%`
+- **Ljung-Box Test (p-value)**: `0.3741` (Residuals show no significant autocorrelation).
+
+**Plots:**
+1. **Interactive Hourly Sales Forecast**: Shows the actual values vs. the forecasted values along with confidence intervals.  
+   ![Hourly Sales Forecast](plots/newplot_18.png)
+
+2. **Residual Diagnostics**: Ensures residuals are normally distributed and uncorrelated, validating model accuracy. 
+   ![Residual Analysis](plots/summary.png) 
+   ![Residual Analysis](plots/download_7.png)
+
+---
+
+### **Next Steps**
+- Further refine the model using additional seasonal components or deep learning techniques (LSTM).
+- Explore ensemble methods (e.g., SARIMA + XGBoost) to improve forecast accuracy.
+- Scale forecasting to include monthly or weekly sales trends.
+
 ## 💻 Installation and Usage
 1. **Clone the repository**:
    ```bash
