@@ -189,6 +189,30 @@ Feature Engineering transforms raw data into meaningful insights and improves th
 ### **Purpose**  
 These engineered features enable better analysis, improved model performance, and actionable customer insights. 🚀  
 
+### **5. Customer Segmentation using K-Means**
+
+The K-Means clustering algorithm was applied to segment customers based on their RFM features:  
+
+- **Recency**: Time since last purchase.  
+- **Frequency**: Total number of purchases.  
+- **Monetary Value**: Total revenue generated.  
+
+The resulting clusters are visualized below:  
+
+#### **K-Means Clustering Plot**  
+<div align="center">  
+  <img src="plots/customer_segmentation_kmeans.png" alt="Customer Segmentation using K-Means" width="600">  
+</div>  
+
+### **Insights**  
+- **Cluster 1 (Red)**: High-value and frequent buyers.  
+- **Cluster 2 (Green)**: Customers with high monetary value but low frequency.  
+- **Cluster 3 (Cyan)**: Regular customers with moderate activity.  
+- **Cluster 4 (Purple)**: Infrequent and low-value customers.  
+
+**Purpose**:  
+This segmentation helps businesses identify customer behaviors, enabling targeted marketing strategies and resource optimization. 🚀  
+
 ---
 
 ## 💻 Installation and Usage
