@@ -265,3 +265,68 @@ We applied **ARIMA** (AutoRegressive Integrated Moving Average) to predict hourl
 3. **Run the scripts**:
    Navigate to the notebooks/ folder to execute individual analysis steps.
    For the Shiny dashboard, open and run shiny_dashboard/app.R.
+
+---
+
+## 🚀 Contributions
+
+This project was a collaborative effort aimed at analyzing and forecasting sales data using machine learning techniques and statistical models. The following contributions were made:
+
+1. **Data Cleaning and Preprocessing**:
+   - Removed missing values and invalid records.
+   - Normalized and aggregated data to prepare it for analysis.
+
+2. **Exploratory Data Analysis (EDA)**:
+   - Analyzed sales trends (hourly and monthly).
+   - Identified top-selling products, revenue-generating countries, and customer behavior.
+   - Visualized insights using interactive and static plots.
+
+3. **Feature Engineering**:
+   - Created RFM (Recency, Frequency, Monetary) features for customer segmentation.
+   - Extracted time-based features to capture sales patterns (hour, month, etc.).
+   - Generated derived metrics like average revenue per order and demand metrics.
+
+4. **Customer Segmentation**:
+   - Performed clustering (K-Means) on RFM features to segment customers into actionable groups.
+
+5. **Forecasting**:
+   - Implemented **ARIMA** and **LSTM** models for time-series sales forecasting.
+   - Evaluated model performance using metrics such as RMSE, MAE, and residual diagnostics.
+
+6. **Visualizations**:
+   - Built informative plots to communicate key insights, including:
+     - Revenue trends
+     - Residual diagnostics
+     - Customer segmentation
+   - Used tools like **ggplot2** and **plotly** for interactive data visualizations.
+
+---
+
+## 📚 References
+
+1. **Online Retail Dataset**:  
+   - Source: [UCI Machine Learning Repository - Online Retail Dataset](https://archive.ics.uci.edu/ml/datasets/online+retail)  
+   - Description: A transactional dataset of a UK-based online retailer containing purchase details between 2010 and 2011.
+
+2. **R Packages**:  
+   - **tidyverse**: For data manipulation and cleaning.  
+     [Link: tidyverse.org](https://www.tidyverse.org/)  
+   - **lubridate**: For date-time handling.  
+     [Link: lubridate on CRAN](https://cran.r-project.org/web/packages/lubridate/index.html)  
+   - **janitor**: For cleaning column names and data.  
+     [Link: janitor on CRAN](https://cran.r-project.org/web/packages/janitor/index.html)  
+   - **forecast**: For ARIMA time-series modeling.  
+     [Link: forecast on CRAN](https://cran.r-project.org/web/packages/forecast/index.html)  
+   - **keras** and **tensorflow**: For building and training LSTM deep learning models.  
+     [Link: Keras for R](https://tensorflow.rstudio.com/keras/)
+
+3. **Clustering Algorithms**:
+   - **K-Means**: For customer segmentation based on RFM features.  
+     [Link: K-Means Clustering](https://en.wikipedia.org/wiki/K-means_clustering)
+
+4. **Time-Series Forecasting Concepts**:  
+   - ARIMA: AutoRegressive Integrated Moving Average Model.  
+   - LSTM: Long Short-Term Memory Model for sequential data.
+
+---
+
