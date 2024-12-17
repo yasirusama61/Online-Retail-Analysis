@@ -246,6 +246,37 @@ We applied **ARIMA** (AutoRegressive Integrated Moving Average) to predict hourl
    ![Residual Analysis](plots/summary.png) 
    ![Residual Analysis](plots/download_7.png)
 
+### Prophet Model
+
+We also used the **Prophet model** for time-series forecasting to analyze and predict sales trends. The results include:
+
+1. **Trend Analysis**:
+   - The sales trend showed a decline at the beginning of the year.
+   - Recovery began mid-2011, with a sharp upward trend toward the end of the year, likely due to seasonal effects or increased demand.
+
+2. **Weekly Seasonality**:
+   - Sales peaked on **Fridays** and midweek, indicating higher purchasing activity during weekdays.
+   - The lowest sales occurred on **Sundays** and **Saturdays**, reflecting reduced business activity on weekends.
+
+   ![Weekly Seasonality](plots/prophet_weekly.png)
+
+3. **Forecast Plot**:
+   - Forecasted future values with confidence intervals were generated to visualize expected sales performance.
+
+   ![Forecast Plot](plots/prophet_forecast.png)
+
+### Results So Far
+- The Prophet model successfully captured both long-term **trends** and **weekly seasonality** in the sales data.
+- Plots provide actionable insights into purchasing patterns and help validate the current forecast.
+
+### Next Steps
+- **Model Optimization**: Fine-tune the Prophet model parameters to improve forecast accuracy.
+- **Additional Seasonality**: Incorporate monthly or holiday seasonality to capture short-term variations.
+- **Model Comparison**: Evaluate alternative models such as **SARIMA** or machine learning-based regressors for better performance.
+- **Validation**: Assess model performance using error metrics like **RMSE**, **MAE**, and **MAPE**.
+
+This process ensures a robust, data-driven approach to sales forecasting and trend analysis.
+
 ---
 
 ### **Next Steps**
